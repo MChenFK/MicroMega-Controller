@@ -2,7 +2,8 @@ from pymodbus.client.serial import ModbusSerialClient
 
 client = ModbusSerialClient(
     method='rtu',
-    port='/dev/ttyUSB0',  # or 'COM3' on Windows
+    #port='/dev/ttyUSB0',
+    port = /tmp/ttyV0
     baudrate=9600,
     parity='N',
     stopbits=1,
